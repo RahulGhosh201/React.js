@@ -1,0 +1,8 @@
+node_modules has all the libraries that gets installed and generally we never have to touch it.
+
+public folder is the folder where all the public assets exist like images, video files.
+
+next src or source folder it has the source code of our application.At startbit will contain only one component named app component in app.tsx
+
+package.json contains all the information about the project created like name, version of it etc.
+

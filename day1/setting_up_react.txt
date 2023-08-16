@@ -1,0 +1,25 @@
+node version should be higher than version 16 so install it accordingly.
+And if it's already installed then opn your command prompt and write node -v it will show tour installed node version.
+Install prettier extension in vs code for formating the code.
+then inside the vs code go to settings and search format on save and then tick the box which will
+help you to automatically format the file once you save it.
+
+
+
+To create a react app-
+    there are two ways -
+        1. Create React App(CRA)
+        2. Vite
+
+
+ To create a new react app using vite-
+    We have to open cmd prompt and write npm create vite@latest
+                                         then y
+                                         then project name
+                                         then select a framwork
+                                         then select the language
+                                         it will create a folder of your choosen place and choosen name.
+                                         now you have to go that specific folder and for that
+                                         you have to write cd project name 
+                                         then npm install
+                                         then code . and it will open the vs code 
