@@ -1,0 +1,10 @@
+suppose the list of the items we are rendering is empty the we can always 
+if(items.length==0)
+    return <p>No item found</p>
+
+we are doing this separately from the previous operation, and because of that we have to repeat some code and we don't want to that
+and we also can't write if satement inside return() as it's jss code and that's why 
+we will write{items.length==0?<p>Item not found</p>:null}
+or we can create const getMessage=()=>{
+    items.length==0? <p>Item not found</p>:null;
+}

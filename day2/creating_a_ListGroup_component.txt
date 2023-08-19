@@ -1,0 +1,17 @@
+first we have to install bootstrap and to do that
+we have to type npm i bootstrap@5.2.3 OR npm i bootstrap
+
+As our app is created by vite there will be styles in the css files , we don't need any of that any more so we will
+delete all the content inside that css files.
+
+To import the bootstrap in our app, inside the main.tsx file as a repalcement of the css import line
+we have to write import 'bootstrap/dist/css/bootstrap.css'
+
+By convention we should always create a components folder inside src folder and inside that folder we have to create 
+a file named ListGroup.tsx
+and then write the code to create some list components OR copy it from bootstrap.
+
+inside a return(); we can't return more than one components(like returning something using<h1></h1> along with <ul></ul>)
+as a solve of that we have to return all this componnets inside a div.
+OR we can wrap this elements using fragment by typing----- import { Fragment } from "react";
+OR we can just wrap those component inside an empty tag <></> by doing this we are using fragment but withi=ou importing it.

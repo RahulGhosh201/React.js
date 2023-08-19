@@ -1,0 +1,19 @@
+whil clicking on an item if we want to highlight it we have a css class in bootstrap named active.
+className="list-group-item active" by doing this it will highlight all the items together.
+
+we are trying to highlight the item whuch are clicking and to do that we have to use react hook , react hooks are some built in functions 
+that can be used by importing them.
+here we are using state hook named useSate. using state hookwe are telling react that this component
+can change data later on.
+
+We will declare the hook by writing 
+const arr =useState(-1);//initialized by value -1
+and by this we are going to have two elements arr[0] which is a variable like our selectedIndex variable
+arr[1] updater function. 
+
+Intead of writing this-
+const arr =useState(-1);
+ we will write-
+ const [selectedIndex, setSelectedINdex]= useState(-1);
+
+ Also if we create two different ListGroups and then those will be selected independently.

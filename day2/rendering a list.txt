@@ -1,0 +1,17 @@
+To render a list dynamically-
+    we can create a list of items
+    and to travesre each item we can't ise for loop as jsx does not have any for loop.
+    So we have to use the map() method.
+
+like this-
+cont items=['New York', 'San Fransisco', 'Delhi', 'Kolkata'];
+items.map(item=>(
+    <li>{item}</li>
+)) 
+
+as we know inside a jsx file we can write either html or react components
+so to pass render this we have to wrap it up inside {}.
+
+After doing this wraping ,if we look into the console by inspecting we will see there is a warning 
+that shows that each child in a list should have a unique "key' prop.i.e. while rendering th list items 
+we should give unique keys to each items to keep track of them for later modyfying purpose.

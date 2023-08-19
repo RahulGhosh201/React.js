@@ -1,0 +1,12 @@
+previously when we added the key to each item of items we forgot to add className to each items by doing that we will be successfull 
+to click each item or identify each items .and then we can th onClick property by
+onClick={()=>console.log('Clicked')} by doinig this , every time a item is clicked clicked will be printed in the console.
+Also we can see which item we are clicking on and index of that item 
+by writing onClick={()=>console.log(item,index)}
+Also this onClick event can be identified if wwe do onClick={(event)=>console.log(event)}
+This will show which evenet we are performiing.
+
+But for more complex operations, if we want to create a function where we done all the operations and pass it to items.map
+then we can write const handleClick= (event) => console.log(event)but as here event is 
+implecit we have to do const handleClick= (event:MouseEvent) => console.log(event) and import {MouseEvent} from "react";
+const handleClick= (event:MouseEvent) => console.log(event.bubbles)

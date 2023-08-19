@@ -1,0 +1,4 @@
+asole amra ekta tsx file create kor6i jeta te amra suppos kono function r vitore ki6u operation perform kor6i and then
+sei function ta k export default function name die export kor6i and then sei file ta import korte hbe from the app.tsx file 
+and then app.tsx file r modhye function create kore sei import kora file take return korte hbe and then sei app file take export kore dite hbe.
+ei app tai holo parent component or root component jar modhye various child component gulo gie joro ho66e by import and export.

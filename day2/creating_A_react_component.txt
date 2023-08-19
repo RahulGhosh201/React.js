@@ -1,0 +1,10 @@
+Inside the src folder create a file name message.tsx
+It will create a typscript file 
+generally to crete a typescript file we use .ts but in case of react we use .tsx
+To create a react component we can either create a javascript function or class
+But function based component is more preferrable.
+we will use PAscalCasing while creating a function
+
+suppose we closed the vs code while coding then we have to open the terminal again and code
+ npm run dev to generate the local host.
+ 
