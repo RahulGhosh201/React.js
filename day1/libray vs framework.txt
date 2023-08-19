@@ -1,0 +1,15 @@
+React is a javascript library for building dynamic, interactive user interfaces.
+
+React is a library where as angular, vue are frameworks.
+
+library is a tool provides specific functionality.
+frameworks are set of tools and guidelines for building apps.
+
+we can say that library is a like a tool(pen,pencil,eraser).
+where as a framework is a tool set(like a pencil box which contains all the libraries).
+framework is super set of libraries.
+Generally we don't only uses react as it does the designing part, we use other comonents to does routing(which means going from one page to another),
+HTTP,Managing the application state, Internationalization, Form validation, Animations etc.
+
+And as for advanatages of react it does not specify any tool to work with so we can pick the right tool for the job.
+
