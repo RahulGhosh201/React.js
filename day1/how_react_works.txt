@@ -1,0 +1,13 @@
+here app is the root component or parent and message is a child, this is a component tree.
+React takes it as a component tree and convert it into a js data structure known as virtual dom.
+If we update any data then the corresponding node gets updated then react compare that node with previous one and that's how react works
+Tchnically this updation is done by react companion library called ReactDom.
+
+Generally if we look in th index.html file we can see that whole container is under root id and we can see that the script file main.tsx 
+is added to it and the main.tsx file we can see that ReactDom is rendering the root id by dom manipulation i.e. getElemnetById
+
+So here by we are creating a component tree where the parent component is app and it has various child component 
+this component tree known as <App/> is under a built in component known as React.StrictMOde which does 
+not have any visual representation but it's purpose is to identify potential problems.
+And then rendering it whol inside the id root and to do that we are using ReactDom library.
+We can render this component tree in a mobile app using ReactNative.
