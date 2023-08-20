@@ -1,0 +1,26 @@
+To pass a children we have to create a new file name Alert.tsx under components folder.
+Instead of create a function and exporting it like every time we can install es7+ extension and then type
+rafce( react arrow function component export) we will get the code snippet.
+
+
+First the text we rendering if we want to dynamic it, we  have create an interface 
+like -
+interface Props {
+    text: string;
+}
+
+and then render it via Alert function.And we will set this text from the App.tsx file.
+So here we can see that only text can be sent here by=ut instead of text if we pass childrenlike-
+interface Props {
+    children: ReactNode;
+}
+then we can easily write whatever html we want.
+in the interface while declaring a property if we want to make a property optional 
+we can do like-
+color?: string; meaning adding a ? infront of the property.
+also while declaring the property we can set multiple of it's value by using union'|'
+like this-
+color?: 'primary' | 'secondary';
+by doing this when we are declaring the color in the app.tsx file, if we declare some invalid value it will
+show an error.
+In the app.tsx file we have to choose between the given option while definying it in the button.tsx file.

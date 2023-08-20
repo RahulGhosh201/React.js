@@ -1,0 +1,7 @@
+go to chrome search for react dev tools and add it to chrome or whatever browser you are using.
+
+then int  he inspect section go to the arrow button beside network and then click on components
+you will be able to see the hirarchy of your page meaning you will be able to see the components 
+which one works under which one.meaning the component tree.
+
+We will also be able to see the source code by clicking on <> the inspect part here.

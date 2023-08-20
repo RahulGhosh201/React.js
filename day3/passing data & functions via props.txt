@@ -1,0 +1,17 @@
+props are  inputs to our components.
+when we are hard coding an array or writing a hading under h1 tag it makes the code static as to why 
+if we want to change it in future or make it dynamic it may become imposiible and that;s why
+we use interface.
+interface defines the shape of an object.
+mainly it works exactly like structure in c.
+interface props {
+    items: string[];
+    heading: string;
+}
+by doing this we can number of props object.
+and each object has it's own string[] arrays, string heading.
+Mainly by doing this we can pass data dynamically.
+
+Now in real apps after an item of the list group gets selected some operations need to be happened
+and to that we have to notify the parent component that an item got selected.and in this case our parent component is 
+our app component to do that we have to add that function in the existing interface.

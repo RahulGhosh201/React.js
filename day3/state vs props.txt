@@ -1,0 +1,8 @@
+props or properties are the inputs or arguments passed to the component.
+State is the internal data managed by the component.
+Props are similar to function args.
+state are similar to local variables.
+props are immutable meaning unchangable or read only.
+state are mutable and that's the main purpose of using state.
+But both of these are used to re render the dom meaning when ever we make some changes in 
+both of this it changes the DOM.
