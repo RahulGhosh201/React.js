@@ -1,0 +1,9 @@
+In the case of react, if we want to create a variable in the app.tsx file  whose value will be 
+changed later on then it's better to create useState.
+
+syntax: const [user,setUser]= useState("Rahul");
+
+Here the value of this useState is Rahul and to change that in the future you have to do it by using setUser("value")
+
+and to use useState you have to import it like this-
+import React,{useState} from 'react';

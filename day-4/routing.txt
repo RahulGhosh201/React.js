@@ -1,0 +1,15 @@
+routing means going from an page to another page without reloading the total page like suppose you are on youtube and then 
+click on the trending section it goes to it you will notice that the url of both the pages are different but you will also notice that while
+this switchinig between these two page happens the page does not reload.
+
+Suppose we build header section in our site and it has About, Product and in case of both of these 
+if we click on About it will transfer it to another page which is sole ly designed for about section and to do that
+We have to create a folder named About in src  and then create a App.tsx
+file and the content of that will be shown while clicked on About in the header.
+also we have to link both this App.tsx file by writing-
+<a href='About'>About</a>
+
+But still we will see that it is reloading for going from main page to About page and to fix it 
+we have to use link like this-
+import Link from 'next/link'
+<Link href='/About'>About</Link>

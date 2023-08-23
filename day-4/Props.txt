@@ -1,0 +1,22 @@
+Suppose we are writing some value on page.tsx file and we want to show that value via our Header.tsx file then
+we have to use props.
+At first in App.tsx file-
+ <Header user={user} /> in the return section 
+
+ and then in Header.tsx file-
+ const { user } = this.props;
+
+In this case we are passing an object to the header file so get various properties of that 
+object we have to use "." 
+like if we create two useStates named user and editor like this-
+const [user,setUser] = useState("Rahul")
+const [editor,SetEditor] = useState("Rohit")
+and pass it to header file like this-
+<header user={user} edit={editor}
+
+and then catch it in the header file like this
+const Header = (props){
+
+}
+This props is an object which has two properties here user and editor and to print them we have to write-
+{props.user}, {props.edit}

@@ -1,0 +1,33 @@
+axios is used to call the APIs.
+API(Application Programming Interface) is used to communicate between softwares.
+We can say that in the case of a restuarnt the front or dinning where all the customers are seated and where all the tables are placed or from where the cutsomers are able to communicatewith restuarnt is 
+front-end where as the kitchen where all the cooking is done in the background can be descried as the back-end and the stuffs or servers that communicate with both the customers and cooks are the APIs.
+meaning a customer came to the front-end request to their desire and then API taje that request and fetch that specific food or data from the kitchen or back-end.
+
+To use these APIs we have to install axios in the terminal like this-
+npm i axios
+and then import it in the code like this-
+import axios from 'axios'
+
+Handling APIs-
+suppose you want to fetch some random images by using this link (https://picsum.photos/v2/list)
+then after installing the axios by npm i axios you have to create a function linke this-
+const getImages = () =>{
+    const response =axios.get(https://picsum.photos/v2/list);
+}
+<buton onClick={getImages}>Click Me</button>
+
+
+But here you will see that you are getting is a response and to handle the responses we have to use asynch wait with try catch block
+Response handling-
+const getImages = async () => {
+    try {
+      const response = await axios.get("https://picsum.photos/v2/list");
+      console.log(response.data);
+    } catch {
+      console.error("Error fetching images");
+    }
+}
+It will retuen datas as an array of objects.
+
+asynch wait makes a function asynchronous.
