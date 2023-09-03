@@ -1,0 +1,25 @@
+jsx html hi he par o js k mukut pehni hui he
+jsx=html+{js}
+here mainly html is written and to add js init we use{}
+here className is used in place of class as class is a keyword here.
+htmlFor is used in place of for
+tabIndex is used in place of index
+
+ReactDOM.createRoot(document.getElementById('root')).render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>,
+) 
+this code is present in the src folder's main.jsx file and it shows that it is connected to the root where main component
+is App and this App is the file named App.jsx which gets imported in the main.jsx file.
+If we create an element it gets imported in the App.jsx file and App.jsx file gets imported inthe main.jsx file
+Or we can directly import that file in the main.jsx file
+
+And mainly we can return only one tag so either make a div and insert all the code inside that div and return it 
+Or you can make a fragement like <> </> and insert all the code inside that fragment and return it
+
+Also suppose we want to render some component and use it in another component,
+then just import that component in that file and in the return part write <componentNam />
+
+Babel compiles JSX down to React.createElement() calls
+means our syntax does not make the makes the changes directly it gets converted into some different codes by babel and then that makes the changes.

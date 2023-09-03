@@ -1,0 +1,8 @@
+all the datas that a client wants are stored in the server's databases.
+now whenever a client want to get some data, he has to send some request to the server
+then if the site works on multi or non-single page application(mpa), the clien will get a combination of html+css+js files.
+in case of mpa the site gets reloaded each time the client request some thing different from before.
+But if the works on spa(single page application ), then the client gets a combination of html+css+js files and from there the js handels all the action takes place 
+in that site meaning after getting the first response from the server side it does not gets reloaded when ever the client requests some thing new. the js file handels all
+the requests from there on.
+Mainly spa makes your site faster.

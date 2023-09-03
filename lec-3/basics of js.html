@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script>
+      let a = 5;
+      var b = 5;
+      const c = 5;
+      console.log(a);
+      document.addEventListener("click", function click() {
+        console.log("Clicked");
+        alert("Hello");
+        let conf = confirm("Are you sure?");
+        console.log(conf);
+      });
+      let arr = [1, 5, 10];
+      for (let i = 0; i < arr.length; i++) {
+        console.log(arr[i]);
+      }
+      arr.forEach((element) => {
+        console.log(element);
+      });
+
+      setTimeout(() => {
+        console.log("rahul");
+      }, 3000);
+      console.log("It will be consoled before the setTimeOut function works");
+    </script>
+  </head>
+  <body></body>
+</html>
+<!-- diff b/w var and let and const->
+if we do var a=5;
+var a=10;
+then it will not give an error and it should have been given an error.
+
+But if we do let a=10;
+let a=15;
+then it will give an error as it should have been. 
+const a=15;
+a=20;
+also in this case it will give an error -->
+
+<!-- Data types-> primary data types-> number, string, boolean- true or false, objects, undefined, null -->
+
+<!-- function hello(){ console.log("Hey Rahul") } -->
+
+<!-- Example of an object->
+let a={
+  r:5;
+  m:01;
+  func: function name(number){
+    console.log(number+"is given")
+  }
+} 
+To access r variable-> a.r//5
+To access m variable-> a.m//01
+To access the function-> a.func(45)//45 is given
+-->
+
+<!-- Events in js-> document.addEventListener("click", function click() {
+console.log("Clicked"); }); whenever we clcik on the html page it will console
+clicked -->
+
+<!-- what is strict mode? like if we write d=15;
+in js file it will not give an error but if we write "use strict" and then we
+write d=15; then it will give an error saying d is undefined. -->
+
+<!-- diff b/w normal & arrow function-> function myfunc() { console.log("The number
+is"+this);//it will say this number is undefined } let myfunc=(numebr)=>{
+console.log("The number is "+this);//it will retunr the global window object } -->
+
+<!-- callback-> it will invoke when already a task is performed. like it can be
+performed in case of setTimeout. Mainly this topic coms forward in case of
+asynchronous works. -->
+
+<!-- Promises-> either it gets resolved or it gets rejected. -->
