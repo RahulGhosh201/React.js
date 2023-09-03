@@ -1,0 +1,5 @@
+At first we will submit see that , if we click on the add task button the page gets reloaded and the task gets lost
+Now if we add onSubmit in the form we will see that while clicking on the task button
+it will perform some certain tasks.
+But it will show for some nano seconds to keep this change permanent we have to write e.preventDefault()
+Then inside the setHandler function we have to write settitle("") and as a result of this the task written will be stored and page will not reload and the task bar will be empty like before.

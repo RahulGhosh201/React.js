@@ -1,0 +1,10 @@
+suppose we create a form in our project where the user will it. The way of getting users answer of thst form in to our database or to get the data that th user answered is done by
+way binding.
+At first we have to create a variable, but as we know we can't create a variable we have to create an useState here keeping in mind to import it.
+Here useState is used in place of var or let.
+Now we have to add value={title} onChange={(e)=>{
+console.log(e.target.value);
+}}
+this code in the and by writing e.target.value we will be able to see what ever we write in the code that will be shown in the console.
+now if we write settitle (e.target.value); then the title useState is getting the value written in the box.
+Mainly the changes we are making in the useState is replicating in the box, this is called two way binding.

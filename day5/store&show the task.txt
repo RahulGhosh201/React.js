@@ -1,0 +1,5 @@
+to store the tasks we will create another useState named mainTask which stores arrays.
+
+As of default meaning before adding any task the site will show No Task Available and to do that we will create a varible and pass it 
+To store the title and description written in the page we have to do-
+setmainTask([...mainTask,{title,desc}])
