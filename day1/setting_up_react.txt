@@ -23,3 +23,12 @@ To create a react app-
                                          you have to write cd project name 
                                          then npm install
                                          then code . and it will open the vs code 
+
+And to create a next react app use "npx create-next-app" in the desktop then give the project a name
+Open the folder in vs code and run npm install next react react-dom in the terminal and check in the package.json file if 
+"scripts": {
+  "dev": "next dev",
+  "build": "next build",
+  "start": "next start"
+} 
+is there and if not then add it in that file and then "npm run dev" in the terminal.
